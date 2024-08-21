@@ -1,4 +1,4 @@
-//Question:3
+//Day-2,Question:3
 
 //Time complexity for this code is O(n) 
 //Explanation:The for loop runs from 1 to a, performing a multiplication operation at each iteration.
