@@ -1,6 +1,6 @@
 public class Alternate {
         public static void main(String[] args) {
-            int[] originalArray = {1, 2, 3, 4,8, 5, 6};
+            int[] originalArray = {1, 2, 3, 4,8, 5, 6,9};
             int[] alternateArray = new int[originalArray.length];// after alterting the array the length will be same so the length same as original array
             for (int i = 0; i < originalArray.length - 1; i += 2) {
                 alternateArray[i] = originalArray[i + 1];//  for first iteration  2 is stored in altarr[0]
