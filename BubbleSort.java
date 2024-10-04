@@ -1,3 +1,5 @@
+//the logic to sort element in bubble sort  is ,check the pair of element and find the largest element into the last of the array
+
 class BubbleSort{
     public static void main(String[] args) {
         System.out.println("Try programiz.pro");
