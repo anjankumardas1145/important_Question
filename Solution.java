@@ -29,3 +29,16 @@ public class Solution {
         System.out.println("Peak element value: " + nums[peakIndex]);
     }
 }
+/*Basically here it is not like the greatest number in the array.
+it A peak element is an element that is greater than its immediate neighbors.
+The goal is to find any one peak element in the array, not necessarily the greatest number.
+If there are multiple peaks, the algorithm returns any one of them based on the binary search logic.
+
+here the key difference btn peak element and Greatest number
+
+Aspect	                         Find Peak Element	                                                  Greatest Number
+Definition	           Greater than immediate neighbors	                                     Largest number in the array
+Goal	                         Find any one peak	                                                Find the greatest number
+Multiple Peaks	               Any peak index is valid	                                                  Returns the maximum only
+Algorithm Used	               Binary Search (O(log n))	                                                    Linear Search (O(n))*/
+
